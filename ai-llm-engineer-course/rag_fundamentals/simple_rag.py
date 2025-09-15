@@ -111,7 +111,9 @@ def generate_csv():
             "id": 8,
             "fact": "The James Webb Space Telescope, launched in 2021, is the successor to the Hubble Telescope.",
         },
-        {"id": 9, "fact": "The Milky Way galaxy contains over 100 billion stars."},
+        {   
+            "id": 9, 
+            "fact": "The Milky Way galaxy contains over 100 billion stars."},
         {
             "id": 10,
             "fact": "Black holes are regions of spacetime where gravity is so strong that nothing can escape.",
