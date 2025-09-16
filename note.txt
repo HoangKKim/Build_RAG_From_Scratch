@@ -1,0 +1,1 @@
+origin repo: https://github.com/pdichone/ai-llm-engineer-course/tree/main/rag_fundamentals/chroma_db/39d5a1b2-6d11-4e1c-82a9-54f3870d9160
