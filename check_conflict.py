@@ -1,6 +1,9 @@
 import os
 import numpy as np
 
-print(f"Hello! My name is Kim - nice to meet you")!
+print(f"Hello! My name is Kim - nice to meet you")
 
 print('==========================================')
+print("Nice to meet you")
+
+print("++++++++++++++++++++++++++++++++++++++++++++++++")
