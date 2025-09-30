@@ -26,8 +26,10 @@ class EmbeddingModel:
                 model_name="nomic-embed-text",
             )
         elif self.model_type == 'ollama':
-            self.embedding_fn = embedding_functions.OllamaEmbeddingFunction(
-                model_name = 'mxbai-embed-large'        # can view on Ollama to change
+            self.embedding_fn = embedding_functions.OpenAIEmbeddingFunction(
+                model_name = 'mxbai-embed-large',        # can view on Ollama to change
+                api_key = 'ollama',
+                api_base="http://localhost:11434/v1",
             )
 
 class LLMModel:
